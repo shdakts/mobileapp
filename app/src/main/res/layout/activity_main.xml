@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#471616"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".Main2Activity" >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="94dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="206dp"
+        app:srcCompat="@drawable/fr_bayrak" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="105dp"
+        android:layout_toStartOf="@+id/imageView3"
+        android:text="Hoşgeldiniz "
+        android:textColor="@android:color/white"
+        android:textSize="45dp"
+        app:fontFamily="sans-serif-condensed" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="103dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginTop="83dp"
+        app:srcCompat="@drawable/tr_bayrak" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="196dp"
+        android:text="Bienvenue"
+        android:textColor="@android:color/white"
+        android:textSize="45dp"
+        app:fontFamily="@font/galada" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="92dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/kayit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#b21331"
+            android:text="Kaydol"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

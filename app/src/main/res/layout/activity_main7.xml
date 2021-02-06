@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#471616"
+    tools:context=".Main7Activity"
+    >
+
+    <Button
+        android:id="@+id/sonraki"
+        android:layout_width="149dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="11dp"
+        android:text="Sonraki"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="108dp"
+        android:text="Diyaloglar (1)"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:fontFamily="@font/galada" />
+
+    <Button
+        android:id="@+id/oynat"
+        android:layout_width="47dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginStart="24dp"
+        android:background="@android:drawable/ic_lock_silent_mode_off" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="600dp"
+        android:layout_height="402dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/fr_diyalog" />
+
+</RelativeLayout>
